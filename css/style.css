@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #0E0E0E;
+    color: #fff;
+    font-weight: 400;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header{
+    background-image: url('../images/header-bg.jpg.');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 8px;
+}
+.menu__list-item{
+    padding: 0 13px;
+}
+
+
+.menu__list-link{
+    font-size: 36px;
+    line-height: 42px;
+}
