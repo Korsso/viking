@@ -34,5 +34,13 @@ a{
 
 .menu__list-link{
     font-size: 36px;
-    line-height: 42px;
+    line-height: 5px;
+}
+
+.logo__img {
+   
+    width: 880px;
+    height: 321px;
+    left: 520px;
+    top: 228px;
 }
