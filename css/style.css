@@ -111,7 +111,7 @@ ul {
 
 .video {
     background-image: url('../images/video-bg.jpg');
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center  center;
     background-repeat: no-repeat;
@@ -119,13 +119,13 @@ ul {
 }
 
 .video__text {
-    
     font-style: italic;
     font-weight: 300;
     font-size: 72px;
     line-height: 84px;
     color: #85CCDC;
     padding-top: 444px;
+    margin-bottom: 40px;
 
 }
 .video__text span {
@@ -136,7 +136,7 @@ ul {
 .video__btn {
    padding-left: 112px;
    position: relative;
-    
+   margin-right: 230px;
 }
 
 .video__btn::before {
@@ -144,7 +144,8 @@ ul {
     position: absolute;
     width: 100px;
     height: 100px;
+    top: -40px;
     left: 0;
-    background-image: url('../images/youtube-btn.svg');
+    background-image: url('../images/youtube 1 1.svg');
 }
 
