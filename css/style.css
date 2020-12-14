@@ -216,5 +216,28 @@ ul {
     max-width: 775px;
 }
 
+.heroes__text {
+    max-width: 350px;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: ;
+}
+
+.heroes__name {
+
+}
+
+.slick-prev {
+
+}
+
+.slick-next {
+
+}
+
 
 
