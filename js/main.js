@@ -21,7 +21,7 @@ $(function(){
        slidesToScroll: 1,
        asNavFor: '.heroes__slider-img',
        fade: true,
-      
+       arrows:false
     });
 
 });

@@ -216,7 +216,7 @@ ul {
     max-width: 775px;
 }
 
-.heroes__text {
+.heroes__slider-text {
     max-width: 350px;
 }
 
@@ -224,20 +224,32 @@ ul {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    border: ;
-}
-
-.heroes__name {
-
+    border: none;
+    background-color: transparent;
+    z-index: 5;
+    cursor: pointer;
+    outline: none;
 }
 
 .slick-prev {
-
+    left: 38px;
 }
 
 .slick-next {
-
+    right: 38px;
 }
 
+.heroes__name {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85ccdc;
+    margin-bottom: 44px
+}
+
+.heroes__text {
+
+}
 
 
