@@ -155,6 +155,7 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px 75px;
     counter-reset: number;
+    padding-top: 72px;
 }
 
 .seasons__item {
@@ -275,13 +276,13 @@ ul {
     display: flex;
     padding: 44px 47px 64px 35px;
     background-color: #0E0E0E;
-    height: 323px;
+    /* height: 323px;
     left: 268px;
-    top: 577px;
-    /* bottom: -140px;
+     top: 577px; */
+     bottom: -140px;
     left: 0;
     right: 0;
-    margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 .season-info__num {
