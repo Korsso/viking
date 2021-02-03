@@ -154,14 +154,13 @@ ul {
 
 .seasons__inner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
     grid-gap: 100px 75px;
     counter-reset: number;
     padding-top: 72px;
 }
 
 .seasons__item {
-    width: 350px;
     height: 250px;
     background-position: center  center;
     background-repeat: no-repeat;
@@ -336,6 +335,12 @@ ul {
     
 }
 
+@media (max-width: 1088px) {
+    .season-item {
+        height: 340px;
+    }
+}
+
 @media (max-width: 768px) { 
     .about__inner {
         display: block;
@@ -367,6 +372,10 @@ ul {
         background-size: cover;
         top: -16px;
     } 
+
+    .seasons__inner {
+        grid-gap: 80px 35px;
+    }
 }
 @media (max-width: 640px){
     .menu__list {
@@ -374,6 +383,10 @@ ul {
     }
     .logo {
         padding-top: 21vh;
+    }
+
+    .seasons__item {
+        height: 203px;
     }
 } 
        
