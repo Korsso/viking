@@ -39,7 +39,7 @@ ul {
 
 .header{
     background-image: url('../images/header-bg.jpg.');
-    height: 100%;
+    height: 160vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50px;
